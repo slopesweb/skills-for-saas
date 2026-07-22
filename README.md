@@ -92,7 +92,7 @@ Browse the complete [skill catalog](docs/catalog.md).
 No package installation is required.
 
 ```bash
-git clone https://github.com/YOUR-ORG/skills-for-saas.git
+git clone https://github.com/slopesweb/skills-for-saas.git
 cd skills-for-saas
 ```
 
