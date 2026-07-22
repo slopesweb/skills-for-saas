@@ -1,0 +1,21 @@
+{
+  "name": "ai-saas",
+  "version": "0.1.0-alpha.1",
+  "description": "Curated ai saas Skills for SaaS bundle.",
+  "skills": [
+    "ai-feature-specification",
+    "model-provider-abstraction",
+    "prompt-contracts",
+    "rag-architecture",
+    "agent-tool-design",
+    "ai-evaluation",
+    "ai-safety-governance",
+    "usage-metering",
+    "tenant-data-isolation",
+    "privacy-compliance",
+    "observability",
+    "spec-driven-development",
+    "audit-logging",
+    "cost-governance-finops"
+  ]
+}

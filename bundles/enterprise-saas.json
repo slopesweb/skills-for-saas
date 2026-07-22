@@ -1,0 +1,27 @@
+{
+  "name": "enterprise-saas",
+  "version": "0.1.0-alpha.1",
+  "description": "Curated enterprise saas Skills for SaaS bundle.",
+  "skills": [
+    "multi-tenant-architecture",
+    "tenant-data-isolation",
+    "tenant-lifecycle",
+    "authentication-design",
+    "authorization-rbac-abac",
+    "memberships-and-invitations",
+    "service-accounts-api-keys",
+    "row-level-security",
+    "data-retention-export-deletion",
+    "subscription-billing",
+    "entitlements-feature-gating",
+    "threat-modeling",
+    "privacy-compliance",
+    "reliability-slo-resilience",
+    "incident-response-runbooks",
+    "backup-disaster-recovery",
+    "repository-architecture",
+    "extension-plugin-architecture",
+    "audit-logging",
+    "cost-governance-finops"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "skill_name": "replace-with-skill-name",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "A realistic normal task.",
+      "expected_output": "Observable expected properties.",
+      "assertions": [
+        "Objective assertion"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "A realistic constrained task.",
+      "expected_output": "Safe constrained output.",
+      "assertions": [
+        "Objective assertion"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "A realistic failure or adversarial task.",
+      "expected_output": "Failure-safe output.",
+      "assertions": [
+        "Objective assertion"
+      ],
+      "files": []
+    }
+  ]
+}

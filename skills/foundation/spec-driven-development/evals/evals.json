@@ -1,0 +1,41 @@
+{
+  "skill_name": "spec-driven-development",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Apply the Spec-Driven Development skill to a new multi-tenant B2B SaaS and produce an implementation-ready proposal.",
+      "expected_output": "A structured design with contracts, tenant and authorization impact, delivery slices, tests, rollout, rollback, risks, and assumptions.",
+      "assertions": [
+        "Defines tenant scope and trusted tenant context",
+        "Produces the required artifacts",
+        "Includes negative tests and rollback",
+        "Does not claim unsupported production readiness"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review an existing implementation related to spec-driven, requirements, ai-development. The team wants to postpone security, i18n, observability, and migration concerns.",
+      "expected_output": "A focused review that preserves delivery speed while rejecting deferred foundational risks.",
+      "assertions": [
+        "Rejects deferred tenant isolation and authorization",
+        "Separates mandatory foundations from optional platform work",
+        "Marks missing evidence",
+        "Proposes reversible implementation slices"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "A production incident exposed a possible cross-tenant or duplicate-operation flaw involving Spec-Driven Development. Propose containment, diagnosis, remediation, verification, and rollout.",
+      "expected_output": "An incident-aware plan prioritizing containment, evidence, tenant impact, idempotent remediation, regression tests, and rollback.",
+      "assertions": [
+        "Prioritizes containment",
+        "Includes tenant-impact investigation",
+        "Includes adversarial regression tests",
+        "Preserves evidence without leaking sensitive data"
+      ],
+      "files": []
+    }
+  ]
+}

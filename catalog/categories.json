@@ -1,0 +1,158 @@
+{
+  "format_version": "1.0-alpha",
+  "categories": [
+    {
+      "name": "ai",
+      "skill_count": 7,
+      "skills": [
+        "agent-tool-design",
+        "ai-evaluation",
+        "ai-feature-specification",
+        "ai-safety-governance",
+        "model-provider-abstraction",
+        "prompt-contracts",
+        "rag-architecture"
+      ]
+    },
+    {
+      "name": "api",
+      "skill_count": 4,
+      "skills": [
+        "api-first-design",
+        "idempotency-concurrency",
+        "openapi-contracts",
+        "pagination-filtering-errors"
+      ]
+    },
+    {
+      "name": "architecture",
+      "skill_count": 4,
+      "skills": [
+        "domain-modeling",
+        "modular-monolith-design",
+        "scalability-planning",
+        "service-boundary-design"
+      ]
+    },
+    {
+      "name": "billing",
+      "skill_count": 3,
+      "skills": [
+        "entitlements-feature-gating",
+        "subscription-billing",
+        "usage-metering"
+      ]
+    },
+    {
+      "name": "data",
+      "skill_count": 4,
+      "skills": [
+        "data-retention-export-deletion",
+        "database-schema-design",
+        "migrations-zero-downtime",
+        "row-level-security"
+      ]
+    },
+    {
+      "name": "delivery",
+      "skill_count": 3,
+      "skills": [
+        "ci-cd-release",
+        "infrastructure-deployment",
+        "release-versioning"
+      ]
+    },
+    {
+      "name": "events",
+      "skill_count": 5,
+      "skills": [
+        "domain-events",
+        "oauth-integration",
+        "provider-adapter-design",
+        "transactional-outbox-inbox",
+        "webhooks-production"
+      ]
+    },
+    {
+      "name": "foundation",
+      "skill_count": 6,
+      "skills": [
+        "architecture-decision-records",
+        "project-context",
+        "repository-architecture",
+        "saas-project-bootstrap",
+        "saas-skill-creator",
+        "spec-driven-development"
+      ]
+    },
+    {
+      "name": "identity",
+      "skill_count": 4,
+      "skills": [
+        "authentication-design",
+        "authorization-rbac-abac",
+        "memberships-and-invitations",
+        "service-accounts-api-keys"
+      ]
+    },
+    {
+      "name": "operations",
+      "skill_count": 3,
+      "skills": [
+        "backup-disaster-recovery",
+        "cost-governance-finops",
+        "incident-response-runbooks"
+      ]
+    },
+    {
+      "name": "platform",
+      "skill_count": 6,
+      "skills": [
+        "background-jobs-queues",
+        "configuration-feature-flags",
+        "extension-plugin-architecture",
+        "i18n-localization",
+        "observability",
+        "reliability-slo-resilience"
+      ]
+    },
+    {
+      "name": "product",
+      "skill_count": 2,
+      "skills": [
+        "mvp-scope",
+        "product-analytics"
+      ]
+    },
+    {
+      "name": "security",
+      "skill_count": 4,
+      "skills": [
+        "audit-logging",
+        "privacy-compliance",
+        "secrets-key-management",
+        "threat-modeling"
+      ]
+    },
+    {
+      "name": "tenancy",
+      "skill_count": 4,
+      "skills": [
+        "multi-tenant-architecture",
+        "tenant-context-propagation",
+        "tenant-data-isolation",
+        "tenant-lifecycle"
+      ]
+    },
+    {
+      "name": "testing",
+      "skill_count": 4,
+      "skills": [
+        "contract-testing",
+        "multi-tenant-security-testing",
+        "performance-load-testing",
+        "test-strategy"
+      ]
+    }
+  ]
+}

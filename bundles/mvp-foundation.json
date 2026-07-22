@@ -1,0 +1,26 @@
+{
+  "name": "mvp-foundation",
+  "version": "0.1.0-alpha.1",
+  "description": "Curated mvp foundation Skills for SaaS bundle.",
+  "skills": [
+    "saas-project-bootstrap",
+    "project-context",
+    "mvp-scope",
+    "multi-tenant-architecture",
+    "tenant-context-propagation",
+    "authentication-design",
+    "authorization-rbac-abac",
+    "database-schema-design",
+    "api-first-design",
+    "openapi-contracts",
+    "idempotency-concurrency",
+    "i18n-localization",
+    "threat-modeling",
+    "test-strategy",
+    "ci-cd-release",
+    "observability",
+    "spec-driven-development",
+    "repository-architecture",
+    "audit-logging"
+  ]
+}

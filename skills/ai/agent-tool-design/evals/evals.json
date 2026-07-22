@@ -1,0 +1,41 @@
+{
+  "skill_name": "agent-tool-design",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "We are starting a B2B multi-tenant SaaS. Apply the Agent and Tool Design skill and produce an implementation-ready proposal for the first production release.",
+      "expected_output": "A structured Agent and Tool Design proposal with contracts, tenant impact, slices, tests, rollout, rollback, risks, and assumptions.",
+      "assertions": [
+        "Names the tenant scope and trusted tenant-context source",
+        "Produces concrete artifacts and acceptance criteria",
+        "Includes negative tests and rollback",
+        "Avoids unsupported production-readiness claims"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Review an existing SaaS design for agents, tools, safety. The team wants the fastest patch and says security, i18n, observability, and migration can be handled later.",
+      "expected_output": "A focused review preserving MVP speed while rejecting deferred foundational risks and proposing reversible slices.",
+      "assertions": [
+        "Does not defer tenant isolation or authorization",
+        "Separates launch-critical controls from optional platform work",
+        "Marks assumptions and missing evidence",
+        "Provides a staged implementation"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "A production incident suggests a cross-tenant or duplicate-operation flaw related to Agent and Tool Design. Propose containment, diagnosis, correction, verification, and safe rollout.",
+      "expected_output": "An incident-aware plan prioritizing containment, evidence, tenant impact, idempotent remediation, regression tests, and rollback.",
+      "assertions": [
+        "Prioritizes containment before broad refactoring",
+        "Includes tenant-impact investigation",
+        "Includes adversarial regression tests",
+        "Preserves evidence and sensitive-data safety"
+      ],
+      "files": []
+    }
+  ]
+}

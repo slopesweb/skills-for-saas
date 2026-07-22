@@ -1,0 +1,19 @@
+# Skills for SaaS
+
+> Runtime-agnostic and vendor-neutral Agent Skills for production SaaS engineering.
+
+Primary documentation:
+- README.md
+- docs/index.md
+- docs/getting-started.md
+- docs/catalog.md
+- docs/authoring.md
+- spec/skill-format.md
+
+Machine-readable discovery:
+- catalog/skills.json
+- catalog/categories.json
+- catalog/bundles.json
+
+Rules for agents:
+- AGENTS.md

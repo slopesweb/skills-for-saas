@@ -1,0 +1,36 @@
+name: New skill proposal
+description: Propose a durable SaaS engineering workflow.
+title: "[Skill]: "
+labels:
+  - skill
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed kebab-case name
+    validations:
+      required: true
+  - type: textarea
+    id: trigger
+    attributes:
+      label: What should trigger this skill?
+    validations:
+      required: true
+  - type: textarea
+    id: artifacts
+    attributes:
+      label: Which reviewable artifacts must it produce?
+    validations:
+      required: true
+  - type: textarea
+    id: overlap
+    attributes:
+      label: How does it differ from existing skills?
+    validations:
+      required: true
+  - type: textarea
+    id: evaluations
+    attributes:
+      label: Provide three realistic evaluation tasks
+    validations:
+      required: true

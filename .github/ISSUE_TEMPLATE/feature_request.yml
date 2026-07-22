@@ -1,0 +1,26 @@
+name: Repository feature
+description: Propose tooling, schema, compatibility, or documentation behavior.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+  - type: textarea
+    id: compatibility
+    attributes:
+      label: Compatibility and migration impact

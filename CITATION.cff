@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use Skills for SaaS in research, education, or engineering studies, cite this repository."
+title: "Skills for SaaS"
+version: "0.1.0-alpha.1"
+date-released: "2026-07-22"
+authors:
+  - family-names: "Darlan"
+    given-names: "Diego"
+license: "Apache-2.0"
+repository-code: "https://github.com/YOUR-ORG/skills-for-saas"

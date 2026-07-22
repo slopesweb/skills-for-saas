@@ -1,0 +1,82 @@
+{
+  "format_version": "1.0-alpha",
+  "bundles": [
+    {
+      "name": "ai-saas",
+      "version": "0.1.0-alpha.1",
+      "description": "Curated ai saas Skills for SaaS bundle.",
+      "skills": [
+        "ai-feature-specification",
+        "model-provider-abstraction",
+        "prompt-contracts",
+        "rag-architecture",
+        "agent-tool-design",
+        "ai-evaluation",
+        "ai-safety-governance",
+        "usage-metering",
+        "tenant-data-isolation",
+        "privacy-compliance",
+        "observability",
+        "spec-driven-development",
+        "audit-logging",
+        "cost-governance-finops"
+      ],
+      "path": "bundles/ai-saas.json"
+    },
+    {
+      "name": "enterprise-saas",
+      "version": "0.1.0-alpha.1",
+      "description": "Curated enterprise saas Skills for SaaS bundle.",
+      "skills": [
+        "multi-tenant-architecture",
+        "tenant-data-isolation",
+        "tenant-lifecycle",
+        "authentication-design",
+        "authorization-rbac-abac",
+        "memberships-and-invitations",
+        "service-accounts-api-keys",
+        "row-level-security",
+        "data-retention-export-deletion",
+        "subscription-billing",
+        "entitlements-feature-gating",
+        "threat-modeling",
+        "privacy-compliance",
+        "reliability-slo-resilience",
+        "incident-response-runbooks",
+        "backup-disaster-recovery",
+        "repository-architecture",
+        "extension-plugin-architecture",
+        "audit-logging",
+        "cost-governance-finops"
+      ],
+      "path": "bundles/enterprise-saas.json"
+    },
+    {
+      "name": "mvp-foundation",
+      "version": "0.1.0-alpha.1",
+      "description": "Curated mvp foundation Skills for SaaS bundle.",
+      "skills": [
+        "saas-project-bootstrap",
+        "project-context",
+        "mvp-scope",
+        "multi-tenant-architecture",
+        "tenant-context-propagation",
+        "authentication-design",
+        "authorization-rbac-abac",
+        "database-schema-design",
+        "api-first-design",
+        "openapi-contracts",
+        "idempotency-concurrency",
+        "i18n-localization",
+        "threat-modeling",
+        "test-strategy",
+        "ci-cd-release",
+        "observability",
+        "spec-driven-development",
+        "repository-architecture",
+        "audit-logging"
+      ],
+      "path": "bundles/mvp-foundation.json"
+    }
+  ]
+}

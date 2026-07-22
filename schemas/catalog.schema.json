@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skills-for-saas.dev/schemas/catalog.schema.json",
+  "type": "object",
+  "required": [
+    "format_version",
+    "generated_at",
+    "skills"
+  ],
+  "properties": {
+    "format_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "description",
+          "category",
+          "version",
+          "path"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://skills-for-saas.dev/schemas/skill.schema.json",
+  "title": "Skills for SaaS frontmatter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "description"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "maxLength": 64
+    },
+    "description": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 1024,
+      "not": {
+        "pattern": "[<>]"
+      }
+    },
+    "license": {
+      "type": "string"
+    },
+    "allowed-tools": {
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      ]
+    },
+    "compatibility": {
+      "type": "string",
+      "maxLength": 500
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "category": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "version": {
+          "type": "string"
+        },
+        "maturity": {
+          "enum": [
+            "experimental",
+            "alpha",
+            "beta",
+            "stable",
+            "deprecated"
+          ]
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  }
+}

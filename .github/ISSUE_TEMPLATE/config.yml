@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: ../../security/advisories/new
+    about: Report vulnerabilities privately.
+  - name: Questions and ideas
+    url: ../../discussions
+    about: Use Discussions for open-ended design and usage questions.
